@@ -3,7 +3,12 @@
   width: 95vw;
   height: 50vh;
   left: 2.5vw;
+  /*background-color: #FFF000;*/
 }
 #title {
   text-align: center;
+}
+
+#video{
+  height: 85%;
 }
