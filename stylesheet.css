@@ -1,16 +1,40 @@
 html {
-  position: relative;
-  min-height: 100%;
+	position: relative;
+	min-height: 100%;
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 5vh;
-  background-color: #4d5256;
-  color: white;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 5vh;
+	background-color: #4d5256;
+	color: white;
+}
+
+#body1{
+		background-image: url("survivor.jpg");
+	background-repeat: repeat-y;
+	background-position: center top;
+	background-size: 100vw;
+	margin-bottom: 60px;
+}
+
+#body2{
+		background-image: url("survivor.jpg");
+	background-repeat: repeat-y;
+	background-position: center top;
+	background-size: 100vw;
+	margin-bottom: 60px;
+}
+
+	#body3{
+	background-image: url("survivor2.jpg");
+	background-repeat: repeat-y;
+	background-position: center top;
+	background-size: 100vw;
+	margin-bottom: 60px;
 }
 
 #main {
@@ -18,10 +42,14 @@ html {
 	width: 80vw;
 	height: 100vh;
 	margin: 0 auto;
-	background-color: #6BD4D0;
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
+	display: table;
+}
+
+#content{
+	display: table-row;
 }
 
 #main2{
@@ -29,10 +57,14 @@ html {
 	width: 80vw;
 	height: 100vh;
 	margin: 0 auto;
-	background-color: #9068be;
 	color: white;
 	font-family: 'Roboto', sans-serif;
-	text-align: center;
+	
+	display: table;
+}
+
+#content2{
+	display: table-row;
 }
 
 #main3{
@@ -40,10 +72,14 @@ html {
 	width: 80vw;
 	height: 100vh;
 	margin: 0 auto;
-	background-color: #e62739;
 	color: white;
 	font-family: 'Roboto', sans-serif;
-	text-align: center;
+	display: table;
+
+}
+
+#content3{
+	display: table-row;
 }
 
 #main4{
@@ -55,9 +91,65 @@ html {
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
+	display: table;
+	margin-bottom: 0;
+
 }
+
+#content4{
+	display: table-row;
+}
+
+#summary{
+	position: relative;
+	left: 28vw;
+	top: -50vh;
+	width: 50vw;
+	font-size: 2vw;
+}
+
+#poemsummary{
+	position: relative;
+	width: 50vw;
+	left: 12.5vw;
+	font-size: 1.5vw;
+}
+
+.essay{
+	margin: 10px;
+	opacity: 0.4;
+	background-color: black;
+	position: relative;
+	width: 60vw;
+	font-size: 1.5vw;
+	top: -49vh;
+	left: 10vw;
+}
+
+#essay-title{
+text-align: center;
+}
+
+.paragraph{
+	text-indent: 50px;
+}
+
+
+.poster{
+	position: relative;
+	left: 10.5vw;
+}
+
+.summary{
+	position: relative;
+	left: 12vw;
+	top: -50vh;
+}
+
 #title {
 	text-align: center;
+	font-size: 5vw;
+	letter-spacing: 5px;
 }
 
 #video{
@@ -66,8 +158,8 @@ html {
 
 body{
 	/*Background CSS   */
-	background-image: url("axe.jpg");
-	background-repeat: no-repeat;
+	background-image: url("survivor.jpg");
+	background-repeat: repeat-y;
 	background-position: center top;
 	background-size: 100vw;
 	margin-bottom: 60px;
