@@ -1,2 +1,2 @@
-# leave
-why are you here. go away
+# Independent Study Unit Website
+Website created all by me, with the help of Bootstrap
